@@ -14,16 +14,16 @@ export function Hero() {
         <div className="lg:col-span-7">
           <span className="eyebrow !bg-white/10 !text-white">
             <ShieldIcon className="h-3.5 w-3.5" />
-            Above ASE Certified Standards • AC Certified
+            Mobile Auto Repair • Above ASE Certified Standards
           </span>
           <h1 className="mt-5 text-4xl font-extrabold leading-[1.05] tracking-tight sm:text-5xl lg:text-6xl">
             Reliable auto repair{" "}
             <span className="text-accent-light">done right.</span>
           </h1>
           <p className="mt-6 max-w-xl text-lg text-white/75 sm:text-xl">
-            From diagnostics and AC service to everyday repairs,{" "}
-            {BUSINESS.name} helps keep your vehicle running strong with honest,
-            skilled work you can trust.
+            From diagnostics and maintenance to everyday repairs,{" "}
+            {BUSINESS.name} brings honest, skilled service to your vehicle
+            wherever it sits.
           </p>
 
           <div className="mt-8 flex flex-wrap items-center gap-3">
@@ -42,8 +42,8 @@ export function Hero() {
 
           <dl className="mt-10 grid max-w-xl grid-cols-3 gap-6 border-t border-white/10 pt-8">
             <Stat label="Mon – Sat" value="9 – 5" />
-            <Stat label="Certified" value="ASE+ / AC" />
-            <Stat label="Local shop" value="Auburn, MA" />
+            <Stat label="Service" value="Mobile" />
+            <Stat label="Local area" value="Auburn, MA" />
           </dl>
         </div>
 
@@ -109,7 +109,7 @@ function HeroVisual() {
             </div>
             <div className="text-sm">
               <div className="font-semibold">Certified work</div>
-              <div className="text-white/60">Above ASE + AC</div>
+              <div className="text-white/60">Mobile repair</div>
             </div>
           </div>
           <a

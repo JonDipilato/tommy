@@ -5,7 +5,7 @@ export const BUSINESS = {
   street: "482 Southbridge St, P.O. 341",
   hoursLine: "Monday – Saturday: 9 AM – 5 PM",
   hoursClosed: "Sunday: Closed",
-  certs: "Above ASE Certified Standards • AC Certified",
+  certs: "Mobile Auto Repair • Above ASE Certified Standards",
   mapsQuery: "482 Southbridge St, Auburn, MA",
 } as const;
 

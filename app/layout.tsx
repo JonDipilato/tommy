@@ -6,26 +6,27 @@ const SITE_URL = "https://tkprogarage.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: "TKProGarage | Local Auto Repair",
+  title: "TKProGarage | Mobile Auto Repair",
   description:
-    "Reliable local auto repair, diagnostics, AC service, brakes, oil changes, and general vehicle repairs. Call TKProGarage at 508-506-1887.",
+    "Mobile auto repair, diagnostics, maintenance, brakes, oil changes, and general vehicle repairs. Call TKProGarage at 508-506-1887.",
   keywords: [
     "auto repair",
-    "mechanic",
-    "AC service",
+    "mobile mechanic",
+    "mobile auto repair",
+    "on-site maintenance",
     "brake service",
     "engine diagnostics",
     "oil change",
     "TKProGarage",
-    "Southbridge auto repair",
+    "Auburn mobile auto repair",
   ],
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",
     url: SITE_URL,
-    title: "TKProGarage | Local Auto Repair",
+    title: "TKProGarage | Mobile Auto Repair",
     description:
-      "Honest, skilled auto repair for everyday cars and trucks. Diagnostics, AC, brakes, oil changes, and more.",
+      "Mobile auto repair and maintenance for everyday cars and trucks. Diagnostics, brakes, oil changes, and more.",
     siteName: "TKProGarage",
     images: [
       {
@@ -38,9 +39,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "TKProGarage | Local Auto Repair",
+    title: "TKProGarage | Mobile Auto Repair",
     description:
-    "Honest, skilled auto repair for everyday cars and trucks. Call 508-506-1887.",
+      "Mobile auto repair for everyday cars and trucks. Call 508-506-1887.",
     images: ["/images/auto-repair/garage-hero.jpg"],
   },
   icons: {
@@ -92,19 +93,15 @@ const businessJsonLd = {
       "@type": "EducationalOccupationalCredential",
       credentialCategory: "Above ASE Certified Standards",
     },
-    {
-      "@type": "EducationalOccupationalCredential",
-      credentialCategory: "AC Certified",
-    },
   ],
   areaServed: {
     "@type": "Place",
     name: "Greater Worcester County, MA",
   },
   makesOffer: [
+    "Mobile Auto Repair",
     "Engine Diagnostics",
     "Brake Service",
-    "AC Service",
     "Oil Changes",
     "General Repairs",
     "Preventive Maintenance",

@@ -30,7 +30,7 @@ export function Contact() {
       if (!response.ok) {
         throw new Error(
           result?.message ||
-            "We could not send the request. Please call the shop instead.",
+            "We could not send the request. Please call TKProGarage directly.",
         );
       }
 
@@ -41,7 +41,7 @@ export function Contact() {
       setErrorMessage(
         error instanceof Error
           ? error.message
-          : "We could not send the request. Please call the shop instead.",
+          : "We could not send the request. Please call TKProGarage directly.",
       );
     }
   }
@@ -53,11 +53,12 @@ export function Contact() {
           <div className="lg:col-span-5">
             <span className="eyebrow">Contact</span>
             <h2 className="mt-4 text-3xl font-extrabold tracking-tight text-navy-950 sm:text-4xl">
-              Tell us what's going on with your vehicle.
+              Tell us where the vehicle is and what's going on.
             </h2>
             <p className="mt-4 text-lg text-navy-900/70">
-              Send a quick request and we'll get back to you to set up a time.
-              Need to talk now? Calling is the fastest way to reach the shop.
+              Send a quick request and we'll get back to you to coordinate
+              mobile service. Need to talk now? Calling is the fastest way to
+              reach TKProGarage.
             </p>
 
             <div className="mt-8 space-y-4">
@@ -109,6 +110,13 @@ export function Contact() {
                   id="vehicle"
                   name="vehicle"
                   label="Vehicle year / make / model"
+                  required
+                />
+                <Field
+                  id="location"
+                  name="location"
+                  label="Vehicle location"
+                  className="sm:col-span-2"
                   required
                 />
                 <div className="sm:col-span-2">

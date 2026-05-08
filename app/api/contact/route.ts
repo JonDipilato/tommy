@@ -8,6 +8,7 @@ type ContactPayload = {
   phone?: unknown;
   email?: unknown;
   vehicle?: unknown;
+  location?: unknown;
   message?: unknown;
   company?: unknown;
 };
@@ -32,11 +33,15 @@ export async function POST(request: Request) {
   const phone = clean(payload.phone, 80);
   const email = clean(payload.email, 160);
   const vehicle = clean(payload.vehicle, 180);
+  const location = clean(payload.location, 220);
   const message = clean(payload.message, 2000);
 
-  if (!name || !phone || !vehicle || !message) {
+  if (!name || !phone || !vehicle || !location || !message) {
     return NextResponse.json(
-      { message: "Please add your name, phone, vehicle, and message." },
+      {
+        message:
+          "Please add your name, phone, vehicle, vehicle location, and message.",
+      },
       { status: 400 },
     );
   }
@@ -53,7 +58,7 @@ export async function POST(request: Request) {
     return NextResponse.json(
       {
         message:
-          "The contact form is not configured yet. Please call the shop instead.",
+          "The contact form is not configured yet. Please call TKProGarage directly.",
       },
       { status: 503 },
     );
@@ -67,6 +72,7 @@ export async function POST(request: Request) {
     `Phone: ${phone}`,
     `Email: ${email || "Not provided"}`,
     `Vehicle: ${vehicle}`,
+    `Vehicle location: ${location}`,
     "",
     "Message:",
     message,
@@ -84,7 +90,7 @@ export async function POST(request: Request) {
       to: [config.to],
       subject,
       text,
-      html: renderEmail({ name, phone, email, vehicle, message }),
+      html: renderEmail({ name, phone, email, vehicle, location, message }),
       ...(email ? { reply_to: email } : {}),
     }),
   });
@@ -98,7 +104,7 @@ export async function POST(request: Request) {
     return NextResponse.json(
       {
         message:
-          "We could not send the request. Please call the shop instead.",
+          "We could not send the request. Please call TKProGarage directly.",
       },
       { status: 502 },
     );
@@ -135,12 +141,14 @@ function renderEmail({
   phone,
   email,
   vehicle,
+  location,
   message,
 }: {
   name: string;
   phone: string;
   email: string;
   vehicle: string;
+  location: string;
   message: string;
 }) {
   const rows = [
@@ -148,6 +156,7 @@ function renderEmail({
     ["Phone", phone],
     ["Email", email || "Not provided"],
     ["Vehicle", vehicle],
+    ["Vehicle location", location],
   ];
 
   return `

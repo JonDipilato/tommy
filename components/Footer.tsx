@@ -17,7 +17,7 @@ export function Footer() {
               />
             </div>
             <p className="mt-4 max-w-xs text-sm text-white/60">
-              Honest, skilled auto repair for everyday cars and trucks.
+              Mobile auto repair and maintenance for everyday cars and trucks.
             </p>
           </div>
 
@@ -59,8 +59,9 @@ export function Footer() {
             <p className="mt-4 text-[15px] text-white/85">
               Above ASE Certified Standards
             </p>
-            <p className="text-[15px] text-white/85">AC Certified</p>
-            <p className="mt-2 text-[15px] text-white/50">Local Auto Repair</p>
+            <p className="mt-2 text-[15px] text-white/50">
+              Mobile Auto Repair
+            </p>
           </div>
         </div>
 

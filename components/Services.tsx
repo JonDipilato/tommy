@@ -1,10 +1,10 @@
 import Image from "next/image";
 import {
   CalendarIcon,
+  CarIcon,
   DiscIcon,
   DropletIcon,
   GaugeIcon,
-  SnowflakeIcon,
   WrenchIcon,
 } from "./Icons";
 
@@ -20,9 +20,9 @@ const services = [
     body: "Pads, rotors, calipers, fluid, and inspections so you stop short when it matters.",
   },
   {
-    icon: SnowflakeIcon,
-    title: "AC Service",
-    body: "AC certified diagnostics, recharge, and repair so your cabin stays cold all summer.",
+    icon: CarIcon,
+    title: "Mobile Maintenance",
+    body: "On-site maintenance and smaller repairs handled where the vehicle is parked.",
   },
   {
     icon: DropletIcon,
@@ -51,8 +51,8 @@ export function Services() {
             Everyday repairs, handled by people who actually do this work.
           </h2>
           <p className="mt-4 text-lg text-navy-900/70">
-            Sedans, SUVs, and pickups — straightforward service from a local
-            shop that takes the time to get it right.
+            Sedans, SUVs, and pickups — straightforward mobile service from a
+            local mechanic who takes the time to get it right.
           </p>
         </div>
 

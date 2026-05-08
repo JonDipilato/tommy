@@ -16,13 +16,13 @@ export function Hours() {
     <section id="hours" className="bg-gray-50 py-20 sm:py-24">
       <div className="container-x">
         <div className="max-w-2xl">
-          <span className="eyebrow">Hours & Location</span>
+          <span className="eyebrow">Hours & Service Area</span>
           <h2 className="mt-4 text-3xl font-extrabold tracking-tight text-navy-950 sm:text-4xl">
-            Stop by, or just give us a call.
+            Call to schedule mobile service.
           </h2>
           <p className="mt-4 text-lg text-navy-900/70">
-            Open six days a week. Same shop, same people, every time you come
-            in.
+            Available six days a week for local mobile maintenance and repair.
+            Call to confirm your vehicle location and schedule.
           </p>
         </div>
 
@@ -61,7 +61,9 @@ export function Hours() {
                     <MapPinIcon className="h-5 w-5" />
                   </div>
                   <div>
-                    <h3 className="text-lg font-bold text-navy-950">Address</h3>
+                    <h3 className="text-lg font-bold text-navy-950">
+                      Local base
+                    </h3>
                     <p className="text-[15px] text-navy-900/70">
                       {BUSINESS.street}
                     </p>

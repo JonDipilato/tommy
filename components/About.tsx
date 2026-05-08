@@ -14,24 +14,24 @@ export function About() {
         <div className="lg:col-span-7">
           <span className="eyebrow !bg-white/10 !text-white">About</span>
           <h2 className="mt-4 text-3xl font-extrabold tracking-tight sm:text-4xl">
-            A local garage focused on honest work and dependable service.
+            Mobile repair focused on honest work and dependable service.
           </h2>
           <div className="mt-6 space-y-5 text-lg text-white/80">
             <p>
-              TKProGarage is a local auto repair shop focused on honest work,
-              clear communication, and dependable service.
+              TKProGarage is a local mobile auto repair business focused on
+              honest work, clear communication, and dependable service.
             </p>
             <p>
-              Whether you need routine maintenance, AC work, diagnostics, or
-              general repairs, the goal is simple: help you get back on the
-              road with confidence.
+              Whether you need routine maintenance, diagnostics, brakes, oil
+              service, or general repairs, the goal is simple: bring skilled
+              service to you and help you get back on the road with confidence.
             </p>
           </div>
 
           <div className="mt-8 flex flex-wrap gap-3">
+            <Badge>Mobile Auto Repair</Badge>
+            <Badge>Maintenance & Repairs</Badge>
             <Badge>Above ASE Certified Standards</Badge>
-            <Badge>AC Certified</Badge>
-            <Badge>Local Auto Repair</Badge>
           </div>
         </div>
 
@@ -55,9 +55,9 @@ export function About() {
               className="mx-auto mt-6 h-20 w-auto"
             />
             <div className="mt-6 grid grid-cols-2 gap-4 text-center">
-              <Stat label="Days open" value="6" />
-              <Stat label="Hours/day" value="8" />
-              <Stat label="Certifications" value="ASE+ / AC" wide />
+              <Stat label="Days available" value="6" />
+              <Stat label="Service model" value="Mobile" />
+              <Stat label="Certification" value="Above ASE" wide />
             </div>
           </div>
         </div>
