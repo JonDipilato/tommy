@@ -10,14 +10,14 @@ export function Footer() {
             <div className="inline-flex rounded-xl bg-white px-3 py-2 shadow-sm">
               <Image
                 src="/logo.png"
-                alt="TKProGarage logo"
+                alt="TK Pro Garage LLC logo"
                 width={200}
                 height={64}
                 className="h-10 w-auto"
               />
             </div>
             <p className="mt-4 max-w-xs text-sm text-white/60">
-              Mobile auto repair and maintenance for everyday cars and trucks.
+              Mobile auto repair, maintenance, and service contract support for everyday cars and trucks.
             </p>
           </div>
 

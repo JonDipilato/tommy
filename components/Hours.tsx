@@ -22,7 +22,8 @@ export function Hours() {
           </h2>
           <p className="mt-4 text-lg text-navy-900/70">
             Available six days a week for local mobile maintenance and repair.
-            Call to confirm your vehicle location and schedule.
+            Ask about a service contract if you want ongoing maintenance
+            handled without bringing your vehicle to a shop.
           </p>
         </div>
 
@@ -71,8 +72,9 @@ export function Hours() {
             </div>
 
             <p className="mt-5 text-[15px] leading-7 text-navy-900/70">
-              TKProGarage comes to the vehicle for eligible maintenance and
-              everyday repairs. Call to confirm availability for your location.
+              TK Pro Garage LLC comes to the vehicle for eligible maintenance and
+              everyday repairs. Call to confirm availability for your location
+              or to discuss a maintenance service contract.
             </p>
 
             <a href={`tel:${BUSINESS.phoneTel}`} className="btn-primary mt-6">

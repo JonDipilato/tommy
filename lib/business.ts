@@ -1,5 +1,5 @@
 export const BUSINESS = {
-  name: "TKProGarage",
+  name: "TK Pro Garage LLC",
   phone: "508-506-1887",
   phoneTel: "+15085061887",
   mailingAddress: "P.O. Box 341",

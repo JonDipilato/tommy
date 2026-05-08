@@ -6,9 +6,9 @@ const SITE_URL = "https://tkprogarage.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: "TKProGarage | Mobile Auto Repair",
+  title: "TK Pro Garage LLC | Mobile Auto Repair",
   description:
-    "Mobile auto repair, diagnostics, maintenance, brakes, oil changes, and general vehicle repairs. Call TKProGarage at 508-506-1887.",
+    "Mobile auto repair, diagnostics, maintenance service contracts, brakes, oil changes, and general vehicle repairs. Call TK Pro Garage LLC at 508-506-1887.",
   keywords: [
     "auto repair",
     "mobile mechanic",
@@ -17,31 +17,31 @@ export const metadata: Metadata = {
     "brake service",
     "engine diagnostics",
     "oil change",
-    "TKProGarage",
+    "TK Pro Garage LLC",
     "Auburn mobile auto repair",
   ],
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",
     url: SITE_URL,
-    title: "TKProGarage | Mobile Auto Repair",
+    title: "TK Pro Garage LLC | Mobile Auto Repair",
     description:
-      "Mobile auto repair and maintenance for everyday cars and trucks. Diagnostics, brakes, oil changes, and more.",
-    siteName: "TKProGarage",
+      "Mobile auto repair and maintenance service contracts for everyday cars and trucks. Diagnostics, brakes, oil changes, and more.",
+    siteName: "TK Pro Garage LLC",
     images: [
       {
         url: "/images/auto-repair/diagnostics.jpg",
         width: 1200,
         height: 630,
-        alt: "TKProGarage auto repair service",
+        alt: "TK Pro Garage LLC auto repair service",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "TKProGarage | Mobile Auto Repair",
+    title: "TK Pro Garage LLC | Mobile Auto Repair",
     description:
-      "Mobile auto repair for everyday cars and trucks. Call 508-506-1887.",
+      "Mobile auto repair and maintenance contracts for everyday cars and trucks. Call 508-506-1887.",
     images: ["/images/auto-repair/diagnostics.jpg"],
   },
   icons: {
@@ -60,7 +60,7 @@ export const viewport: Viewport = {
 const businessJsonLd = {
   "@context": "https://schema.org",
   "@type": "AutoRepair",
-  name: "TKProGarage",
+  name: "TK Pro Garage LLC",
   image: `${SITE_URL}/images/auto-repair/diagnostics.jpg`,
   logo: `${SITE_URL}/logo.png`,
   url: SITE_URL,
@@ -97,6 +97,7 @@ const businessJsonLd = {
     "Oil Changes",
     "General Repairs",
     "Preventive Maintenance",
+    "Maintenance Service Contracts",
   ].map((s) => ({
     "@type": "Offer",
     itemOffered: { "@type": "Service", name: s },

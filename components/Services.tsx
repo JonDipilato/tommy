@@ -36,8 +36,8 @@ const services = [
   },
   {
     icon: CalendarIcon,
-    title: "Preventive Maintenance",
-    body: "Manufacturer-aligned service intervals so small things stay small and your vehicle stays dependable.",
+    title: "Maintenance Service Contracts",
+    body: "Set up ongoing maintenance for peace of mind and let us take care of your vehicle without the need to bring it to a shop.",
   },
 ];
 
@@ -48,11 +48,12 @@ export function Services() {
         <div className="max-w-2xl">
           <span className="eyebrow">Services</span>
           <h2 className="mt-4 text-3xl font-extrabold tracking-tight text-navy-950 sm:text-4xl">
-            Everyday repairs, handled by people who actually do this work.
+            Mobile maintenance and repairs without bringing your vehicle to a shop.
           </h2>
           <p className="mt-4 text-lg text-navy-900/70">
             Sedans, SUVs, and pickups — straightforward mobile service from a
-            local mechanic who takes the time to get it right.
+            local mechanic who takes the time to get it right, with maintenance
+            service contracts available for ongoing peace of mind.
           </p>
         </div>
 

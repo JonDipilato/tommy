@@ -6,8 +6,8 @@ const points = [
     body: "ASE Standard service with the practical experience to do the job right the first time.",
   },
   {
-    title: "Mobile service that comes to you",
-    body: "Schedule service where the vehicle is parked so maintenance and smaller repairs are less of a hassle.",
+    title: "Maintenance contracts for peace of mind",
+    body: "Set up a maintenance service contract and let us take care of your vehicle without the need to bring it to a shop.",
   },
   {
     title: "Repairs for everyday vehicles",
@@ -25,14 +25,14 @@ export function WhyChoose() {
       <div className="container-x">
         <div className="grid gap-12 lg:grid-cols-12 lg:gap-16">
           <div className="lg:col-span-5">
-            <span className="eyebrow">Why TKProGarage</span>
+            <span className="eyebrow">Why TK Pro Garage LLC</span>
             <h2 className="mt-4 text-3xl font-extrabold tracking-tight text-navy-950 sm:text-4xl">
               Mobile repair that earns repeat customers the old-fashioned way.
             </h2>
             <p className="mt-5 text-lg text-navy-900/70">
-              Honest diagnosis, clear pricing, and quality work, whether it's
-              routine maintenance or a stubborn check engine light no one else
-              could pin down.
+              Honest diagnosis, clear pricing, quality work, and ongoing
+              maintenance options designed to keep your vehicle handled before
+              small issues become big ones.
             </p>
           </div>
 

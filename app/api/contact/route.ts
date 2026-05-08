@@ -58,7 +58,7 @@ export async function POST(request: Request) {
     return NextResponse.json(
       {
         message:
-          "The contact form is not configured yet. Please call TKProGarage directly.",
+          `The contact form is not configured yet. Please call ${BUSINESS.name} directly.`,
       },
       { status: 503 },
     );
@@ -104,7 +104,7 @@ export async function POST(request: Request) {
     return NextResponse.json(
       {
         message:
-          "We could not send the request. Please call TKProGarage directly.",
+          `We could not send the request. Please call ${BUSINESS.name} directly.`,
       },
       { status: 502 },
     );

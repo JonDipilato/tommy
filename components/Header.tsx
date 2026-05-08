@@ -43,12 +43,12 @@ export function Header() {
       <div className="container-x flex h-16 items-center justify-between gap-4 sm:h-20">
         <Link
           href="#home"
-          aria-label="TKProGarage home"
+          aria-label="TK Pro Garage LLC home"
           className="flex items-center"
         >
           <Image
             src="/logo.png"
-            alt="TKProGarage logo"
+            alt="TK Pro Garage LLC logo"
             width={180}
             height={56}
             priority

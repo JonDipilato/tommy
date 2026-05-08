@@ -17,13 +17,14 @@ export function Hero() {
             Mobile Auto Repair • ASE Standard
           </span>
           <h1 className="mt-5 text-4xl font-extrabold leading-[1.05] tracking-tight sm:text-5xl lg:text-6xl">
-            Reliable auto repair{" "}
-            <span className="text-accent-light">done right.</span>
+            Mobile maintenance{" "}
+            <span className="text-accent-light">made easy.</span>
           </h1>
           <p className="mt-6 max-w-xl text-lg text-white/75 sm:text-xl">
-            From diagnostics and maintenance to everyday repairs,{" "}
-            {BUSINESS.name} brings honest, skilled service to your vehicle
-            wherever it sits.
+            From diagnostics and everyday repairs to ongoing maintenance
+            service contracts, {BUSINESS.name} brings honest, skilled service
+            to your vehicle wherever it sits — so you do not have to bring it
+            to a shop.
           </p>
 
           <div className="mt-8 flex flex-wrap items-center gap-3">
@@ -34,9 +35,9 @@ export function Hero() {
               <PhoneIcon className="h-5 w-5" />
               Call now
             </a>
-            <a href="#hours" className="btn-ghost-light !px-6 !py-3.5 !text-base">
+            <a href="#contact" className="btn-ghost-light !px-6 !py-3.5 !text-base">
               <ClockIcon className="h-5 w-5" />
-              View hours
+              Ask about service contracts
             </a>
           </div>
 

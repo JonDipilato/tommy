@@ -30,7 +30,7 @@ export function Contact() {
       if (!response.ok) {
         throw new Error(
           result?.message ||
-            "We could not send the request. Please call TKProGarage directly.",
+            `We could not send the request. Please call ${BUSINESS.name} directly.`,
         );
       }
 
@@ -41,7 +41,7 @@ export function Contact() {
       setErrorMessage(
         error instanceof Error
           ? error.message
-          : "We could not send the request. Please call TKProGarage directly.",
+          : `We could not send the request. Please call ${BUSINESS.name} directly.`,
       );
     }
   }
@@ -57,8 +57,8 @@ export function Contact() {
             </h2>
             <p className="mt-4 text-lg text-navy-900/70">
               Send a quick request and we'll get back to you to coordinate
-              mobile service. Need to talk now? Calling is the fastest way to
-              reach TKProGarage.
+              mobile service or discuss a maintenance service contract. Need to
+              talk now? Calling is the fastest way to reach {BUSINESS.name}.
             </p>
 
             <div className="mt-8 space-y-4">

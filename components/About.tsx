@@ -18,13 +18,15 @@ export function About() {
           </h2>
           <div className="mt-6 space-y-5 text-lg text-white/80">
             <p>
-              TKProGarage is a local mobile auto repair business focused on
+              TK Pro Garage LLC is a local mobile auto repair business focused on
               honest work, clear communication, and dependable service.
             </p>
             <p>
               Whether you need routine maintenance, diagnostics, brakes, oil
               service, or general repairs, the goal is simple: bring skilled
               service to you and help you get back on the road with confidence.
+              Ask about setting up a maintenance service contract for peace of
+              mind, so your vehicle is cared for without bringing it to a shop.
             </p>
           </div>
 
@@ -49,7 +51,7 @@ export function About() {
             </div>
             <Image
               src="/logo.png"
-              alt="TKProGarage logo"
+              alt="TK Pro Garage LLC logo"
               width={400}
               height={140}
               className="mx-auto mt-6 h-20 w-auto"
