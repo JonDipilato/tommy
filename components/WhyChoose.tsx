@@ -2,8 +2,8 @@ import { CheckIcon } from "./Icons";
 
 const points = [
   {
-    title: "Skilled, certified work",
-    body: "Above ASE Certified Standards with the practical experience to do the job right the first time.",
+    title: "Skilled ASE-standard work",
+    body: "ASE Standard service with the practical experience to do the job right the first time.",
   },
   {
     title: "Mobile service that comes to you",

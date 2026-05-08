@@ -14,7 +14,7 @@ export function Hero() {
         <div className="lg:col-span-7">
           <span className="eyebrow !bg-white/10 !text-white">
             <ShieldIcon className="h-3.5 w-3.5" />
-            Mobile Auto Repair • Above ASE Certified Standards
+            Mobile Auto Repair • ASE Standard
           </span>
           <h1 className="mt-5 text-4xl font-extrabold leading-[1.05] tracking-tight sm:text-5xl lg:text-6xl">
             Reliable auto repair{" "}
@@ -92,8 +92,8 @@ function HeroVisual() {
       <div className="relative overflow-hidden rounded-2xl shadow-card ring-1 ring-white/10">
         <div className="relative aspect-[4/5] min-h-[440px]">
           <Image
-            src="/images/auto-repair/garage-hero.jpg"
-            alt="Mechanic inspecting a vehicle during service"
+            src="/images/auto-repair/diagnostics.jpg"
+            alt="Mechanic checking vehicle electrical components during mobile service"
             fill
             priority
             sizes="(min-width: 1024px) 42vw, 90vw"
@@ -108,7 +108,7 @@ function HeroVisual() {
               <ShieldIcon className="h-5 w-5" />
             </div>
             <div className="text-sm">
-              <div className="font-semibold">Certified work</div>
+              <div className="font-semibold">ASE Standard work</div>
               <div className="text-white/60">Mobile repair</div>
             </div>
           </div>

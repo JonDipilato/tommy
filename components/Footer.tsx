@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { BUSINESS, directionsUrl } from "@/lib/business";
+import { BUSINESS } from "@/lib/business";
 
 export function Footer() {
   return (
@@ -23,17 +23,11 @@ export function Footer() {
 
           <div>
             <h3 className="text-sm font-semibold uppercase tracking-wider text-white/50">
-              Visit
+              Mailing address
             </h3>
-            <p className="mt-4 text-[15px] text-white/85">{BUSINESS.street}</p>
-            <a
-              href={directionsUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-2 inline-block text-[15px] font-semibold text-accent-light hover:text-white"
-            >
-              Get directions →
-            </a>
+            <p className="mt-4 text-[15px] text-white/85">
+              {BUSINESS.mailingAddress}
+            </p>
           </div>
 
           <div>
@@ -54,11 +48,9 @@ export function Footer() {
 
           <div>
             <h3 className="text-sm font-semibold uppercase tracking-wider text-white/50">
-              Certifications
+              Standards
             </h3>
-            <p className="mt-4 text-[15px] text-white/85">
-              Above ASE Certified Standards
-            </p>
+            <p className="mt-4 text-[15px] text-white/85">ASE Standard</p>
             <p className="mt-2 text-[15px] text-white/50">
               Mobile Auto Repair
             </p>

@@ -31,7 +31,7 @@ export function About() {
           <div className="mt-8 flex flex-wrap gap-3">
             <Badge>Mobile Auto Repair</Badge>
             <Badge>Maintenance & Repairs</Badge>
-            <Badge>Above ASE Certified Standards</Badge>
+            <Badge>ASE Standard</Badge>
           </div>
         </div>
 
@@ -57,7 +57,7 @@ export function About() {
             <div className="mt-6 grid grid-cols-2 gap-4 text-center">
               <Stat label="Days available" value="6" />
               <Stat label="Service model" value="Mobile" />
-              <Stat label="Certification" value="Above ASE" wide />
+              <Stat label="Service standard" value="ASE" wide />
             </div>
           </div>
         </div>

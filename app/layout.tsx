@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     siteName: "TKProGarage",
     images: [
       {
-        url: "/images/auto-repair/garage-hero.jpg",
+        url: "/images/auto-repair/diagnostics.jpg",
         width: 1200,
         height: 630,
         alt: "TKProGarage auto repair service",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     title: "TKProGarage | Mobile Auto Repair",
     description:
       "Mobile auto repair for everyday cars and trucks. Call 508-506-1887.",
-    images: ["/images/auto-repair/garage-hero.jpg"],
+    images: ["/images/auto-repair/diagnostics.jpg"],
   },
   icons: {
     icon: "/logo.png",
@@ -61,16 +61,14 @@ const businessJsonLd = {
   "@context": "https://schema.org",
   "@type": "AutoRepair",
   name: "TKProGarage",
-  image: `${SITE_URL}/images/auto-repair/garage-hero.jpg`,
+  image: `${SITE_URL}/images/auto-repair/diagnostics.jpg`,
   logo: `${SITE_URL}/logo.png`,
   url: SITE_URL,
   telephone: "+1-508-506-1887",
   priceRange: "$$",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "482 Southbridge St, P.O. 341",
-    addressLocality: "Auburn",
-    addressRegion: "MA",
+    postOfficeBoxNumber: "341",
     addressCountry: "US",
   },
   openingHoursSpecification: [
@@ -88,15 +86,9 @@ const businessJsonLd = {
       closes: "17:00",
     },
   ],
-  hasCredential: [
-    {
-      "@type": "EducationalOccupationalCredential",
-      credentialCategory: "Above ASE Certified Standards",
-    },
-  ],
   areaServed: {
     "@type": "Place",
-    name: "Greater Worcester County, MA",
+    name: "Auburn, MA",
   },
   makesOffer: [
     "Mobile Auto Repair",
