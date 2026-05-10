@@ -60,8 +60,8 @@ export function Services() {
         <div className="mt-10 overflow-hidden rounded-2xl bg-navy-950 shadow-card ring-1 ring-navy-900/5">
           <div className="relative aspect-[16/7] min-h-[260px]">
             <Image
-              src="/images/auto-repair/diagnostics.jpg"
-              alt="Vehicle electrical diagnostics in progress"
+              src="/images/auto-repair/mobile-mechanic.jpg"
+              alt="Mobile mechanic working under the hood of a vehicle"
               fill
               sizes="(min-width: 1024px) 1024px, 90vw"
               className="object-cover"
